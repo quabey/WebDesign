@@ -6,32 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebDesign</title>
 </head>
-<body>
+<body bgcolor="#D3D3D3">
+    <div class="">
+        <p align="center"> Diese Website funktioniert am besten in Chrome</p>
+    </div>
     <header>
-        <a href="#about"><p>Über mich</p></a>
-        <a href="#hobbys"><p>Hobbys</p></a>
-        <a href="#faehigkeiten"><p>Fähigkeiten</p></a>
-        <a href="#">Vollständige Version</a>
+        <!-- a tags um auf Teile der Website bzw. andere Websites zu verlinken, atribute href für das Ziel, und target damit die Seite in einem neuen Tab geöffnet wird -->
+        <a href="#about">Über mich</a>
+        <a href="#hobbys">Hobbys</a>
+        <a href="#faehigkeiten">Fähigkeiten</a>
+        <a href="https://quabey.github.io/WebDesign/" target="_blank"><p>Diese Seite online ansehen</p></a>
     </header>
     <main>
+        <hr>
         <div class="about">
-            <h1>Über Mich</h1>
+            <!-- h1 für große Überschrift -->
+            <h1 align="center">Über Mich</h1>
             <div class="">
-                <h4>
+                <!-- h2 für etwas kleinere Überschrift -->
+                <h2>
                     Persönliche Infos
-                </h4>
-                <img src="https://cdn.discordapp.com/attachments/985316850227380244/1030445898674753557/max.jpg" width="700" alt="Max">
+                </h2>
+                <img src="https://cdn.discordapp.com/attachments/985316850227380244/1030445898674753557/max.jpg" width="300" alt="Max">
                 <p>Quelle: https://thispersondoesnotexist.com/</p>
                 <aside>
+                    <!-- ul (unsorted list) um eine Liste an Informationen zu erstellen -->
                     <ul>
                         <li>
                             Name: Max Mustermann
                         </li>
                         <li>
                             Alter: 18
+                            <!-- Blockquote benutzt um den Text weiter nach -->
+                            <blockquote>Geboren am: 21.10.2000</blockquote> 
+
                         </li>
                         <li>
                             Wohnort: 12345 Musterstadt
+                            <blockquote>Geboren in 54321 Musterdorf </blockquote>
                         </li>
                         <li>
                             Schule: Muster Uni
@@ -41,72 +53,78 @@
             </div>
 
         </div>
+        <hr>
         <div class="" id="hobbys">
-            <h1>Hobbys</h1>
+            <h1 align="center" >Hobbys</h1>
             <div class=""> 
                 <p>
-                    <h4>
+                    <h2>
                         Alkoholkonsum
-                    </h4>
+                    </h2>
                 </p>
-                <img src="https://cdn.discordapp.com/attachments/985316850227380244/1030452891242205214/bier.jpg" width="700" alt="Bier">
-                <p>Quelle: tastingtable.com</p>
+                <!-- img tag um ein Bild einzufügen -->
+                <img src="https://cdn.discordapp.com/attachments/985316850227380244/1030452891242205214/bier.jpg" width="300" alt="Bier">
             </div>
             <div class="">
                 <p>
-                    <h4>
+                    <h2>
                         Weltraumspaziergänge
-                    </h4>
+                    </h2>
 
                 </p>
-                <img src="https://cdn.discordapp.com/attachments/985316850227380244/1030451194109362196/space.jpg" width="700" alt="Max im Weltraum">
-                <p>Quelle: kennedyspacecenter.com</p>
+                <img src="https://cdn.discordapp.com/attachments/985316850227380244/1030451194109362196/space.jpg" width="300" alt="Max im Weltraum">
             </div>
             <div class="">
                 <p>
-                    <h4>
+                    <h2>
                         Schlafen
-                    </h4>
+                    </h2>
                 </p>
-                <img src="https://cdn.discordapp.com/attachments/985316850227380244/1030449232232059010/sleep.jpg" width="700" alt="">
+                <img src="https://cdn.discordapp.com/attachments/985316850227380244/1030449232232059010/sleep.jpg" width="300" alt="">
             </div>
         </div>
         <hr>
         <div class="" id="faehigkeiten">
-            <h1>Fähigkeiten</h1>
+            <h1 align="center">Fähigkeiten</h1>
             <div class="">
                 <p>
-                    <h4>
+                    <h2>
                         Handstand
-                    </h4>
+                    </h2>
                 </p>
-                <img src="https://cdn.discordapp.com/attachments/985316850227380244/1030450941322858496/handstand.jpg" alt="Max macht Handstand" width="700">
-                <p>Quelle: https://www.menshealth.com/ </p>
+                <img src="https://cdn.discordapp.com/attachments/985316850227380244/1030450941322858496/handstand.jpg" alt="Max macht Handstand" width="300">
             </div>
             <div class="">
                 <p>
-                    <h4>
+                    <h2>
                         Schweben
-                    </h4>
+                    </h2>
                 </p>
-                <img src="https://cdn.discordapp.com/attachments/985316850227380244/1030452418451873822/schweben.jpg" alt="Max Schwebt" width="700">
-                <p>Quelle: depositphotos.com</p>
+                <img src="https://cdn.discordapp.com/attachments/985316850227380244/1030452418451873822/schweben.jpg" alt="Max Schwebt" width="300">
             </div>
             <div class="">
                 <p>
-                    <h4>
+                    <h2>
                         Eierlauf
-                    </h4>
+                    </h2>
                 </p>
-                <img src="https://cdn.discordapp.com/attachments/985316850227380244/1030454921046274078/eier.jpg" alt="Max hat ein Ei" width="700">
+                <img src="https://cdn.discordapp.com/attachments/985316850227380244/1030454921046274078/eier.jpg" alt="Max hat ein Ei" width="300">
             </div>
         </div>
     </main>
 
-    <Footer>
-        <p>© 2022 by Nils Banse</p>
-        <a href="https://github.com/quabey"><p>GitHub</p></a>
-        <a href="">Version mit CSS</a>
+    <Footer bgcolor="black">
+        <div class="">
+            <p>© 2022 by <a href="https://nilsbanse.me" target="_blank"> Nils Banse</a> </p>
+            <!-- ein a tag mit download atribute um eine Datein runterzuladen, button tag im a tab, damit es besser aussieht -->
+            <a href="index.html" download="index.html"><button>Diese Seite downloaden</button></a>
+            <br>
+            <a href="https://github.com/quabey" target="_blank">GitHub</a>
+            <a href="https://quabey.github.io/WebDesign/" target="_blank">Diese Website online ansehen</a>
+            <a href="https://nilsbanse.me" target="_blank"> Portfolio</a>
+            <br>
+            
+        </div>
     </Footer>
 </body>
 </html>
