@@ -1,0 +1,29 @@
+header, main, footer, aside {
+    padding: 10px;
+    font-weight: bolder;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 100px 1fr 100px;
+    height: 100vh;
+    gap: 0.5rem;
+}
+
+header, footer {
+    grid-column: 1/4;
+}
+
+header {
+    background-color: cyan;
+}
+footer {
+    background-color: yellow;
+}
+aside {
+    background-color: green;
+}
+main {
+    background-color: red;
+}
