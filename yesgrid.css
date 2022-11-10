@@ -1,0 +1,85 @@
+.withgrid {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    place-content: center;
+    gap: 1em;
+    grid-auto-rows: repeat(3, 100px);
+    grid-template-areas: 
+    "🍎 🍎 🥕"
+    "🍔  0 🥕"
+    "🍔 🍭 🍭";
+
+}
+
+p {
+    padding: 20px;
+}
+
+.nogrid {
+    height: 100vh;
+    width: 100vw;
+    
+
+}
+
+.nogrid>p {
+    position: absolute;
+}
+
+.nogrid>.p1 {
+    background-color: red;
+    width: 15%;
+    left: 30%;
+    
+}
+
+.nogrid>.p2 {
+    background-color: green;
+    left: 50%;
+    height: 25%;
+
+    
+}
+
+.nogrid>.p3 {
+    background-color: blue;
+    left: 30%;
+    top: 15%;
+    height: 25%;
+    
+}
+
+.nogrid>.p4 {
+    background-color: yellow;
+    left: 35%;
+    top: 38%;
+    width: 16%;
+    
+}
+
+.withgrid>.p1 {
+    background-color: red;
+    grid-area: 🍎;
+}
+
+.withgrid>.p2 {
+    background-color: green;
+    grid-area: 🥕;
+}
+
+.withgrid>.p3 {
+    background-color: blue;
+    grid-area: 🍔;
+}
+
+.withgrid>.p4 {
+    background-color: yellow;
+    grid-area: 🍭;
+}
+
+.withgrid>.empty {
+    background-color: transparent;
+    grid-area: 0;
+}
