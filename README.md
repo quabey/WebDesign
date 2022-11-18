@@ -4,4 +4,4 @@
 
 You can view the Site on [Github Pages](https://quabey.github.io/WebDesign)
 
-All infos on the [personal page](https://quabey.github.io/WebDesign/personal.html are made up.
+All infos on the [personal page](https://quabey.github.io/WebDesign/personal.html) are made up.
